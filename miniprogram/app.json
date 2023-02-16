@@ -1,0 +1,31 @@
+{
+    "pages": [
+      "pages/index/index",
+      "pages/user/index"
+    ],
+    "window": {
+      "navigationBarTitleText": "泊雅居",
+      "navigationBarTextStyle": "black",
+      "navigationBarBackgroundColor": "#fff",
+      "backgroundTextStyle": "light"
+    },
+    "tabBar": {
+        "position": "bottom",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "text": "首页管理",
+            "iconPath": "./images/tabBar/home.png",
+            "selectedIconPath": "./images/tabBar/select_home.png"
+        }, {
+            "pagePath": "pages/user/index",
+            "text": "用户中心",
+            "iconPath": "./images/tabBar/user.png",
+            "selectedIconPath": "./images/tabBar/select_user.png"
+        }]
+    },
+    "networkTimeout": {
+      "request": 10000,
+      "downloadFile": 10000
+    },
+    "debug": true
+  }

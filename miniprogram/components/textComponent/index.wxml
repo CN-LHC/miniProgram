@@ -1,4 +1,0 @@
-<!--miniprogram/components/textComponent/index.wxml-->
-<view class="text_component">
-  {{ tipText }}
-</view>

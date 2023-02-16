@@ -1,5 +1,5 @@
 {
     "usingComponents": {
-        "cloud-tip-modal": "/components/textComponent/index"
+        "t-user-center-card": "./components/user-center-card"
     }
 }

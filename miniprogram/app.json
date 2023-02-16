@@ -1,6 +1,6 @@
 {
     "pages": [
-      "pages/index/index",
+      "pages/home/index",
       "pages/user/index"
     ],
     "window": {
@@ -12,7 +12,7 @@
     "tabBar": {
         "position": "bottom",
         "list": [{
-            "pagePath": "pages/index/index",
+            "pagePath": "pages/home/index",
             "text": "首页管理",
             "iconPath": "./images/tabBar/home.png",
             "selectedIconPath": "./images/tabBar/select_home.png"

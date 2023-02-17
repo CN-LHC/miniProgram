@@ -13,7 +13,8 @@
 </view>
 <view class="other_tool">
     <t-cell-group theme="card">
-        <t-cell title="开房信息" leftIcon="scan" hover arrow />
+        <t-cell title="开房信息" leftIcon="scan" hover arrow bindtap="gotoHomeMsg"/>
+        <t-cell title="地址" leftIcon="location" hover arrow bindtap="gotoLocation"/>
         <t-cell leftIcon="service" hover arrow>
             <button open-type="contact" slot="left-icon" class="contact_btn">联系客服</button>
         </t-cell>

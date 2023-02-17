@@ -55,5 +55,11 @@ Page({
         this.getScopeInfo();
     }
   },
-
+  gotoHomeMsg() {},
+  gotoLocation() {
+    console.log(111)
+    wx.redirectTo({
+      url: '/pages/user/location/index',
+    })
+  },
 });

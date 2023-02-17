@@ -1,6 +1,6 @@
 {
   "component": true,
   "usingComponents": {
-    "custom-map": "../components/custom-map"
+      "custom-map": "../components/custom-map"
   }
 }

@@ -1,5 +1,9 @@
 {
-  "component": true,
-  "usingComponents": {
-  }
+    "component": true,
+    "usingComponents": {
+        "t-swiper": "tdesign-miniprogram/swiper/swiper",
+        "t-collapse": "tdesign-miniprogram/collapse/collapse",
+        "t-collapse-panel": "tdesign-miniprogram/collapse-panel/collapse-panel",
+        "t-calendar": "tdesign-miniprogram/calendar/calendar"
+    }
 }

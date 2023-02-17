@@ -2,10 +2,22 @@
   <custom-map>
     <cover-view class="company_info">
       <cover-view class="company_info_item">
-        地址：广东省广州市越秀区广大路广大二巷6号
+        <cover-view class="company_info_item_name">地址：</cover-view>
+        <cover-view
+            class="company_info_item_address"
+            bindtap="activeAddress"
+        >
+            广州市越秀区广大路广大二巷6号
+        </cover-view>
       </cover-view>
       <cover-view class="company_info_item">
-        联系电话：13650968509
+        <cover-view class="company_info_item_name">联系电话：</cover-view>
+        <cover-view
+            class="company_info_item_iphone"
+            bindtap="callPhone"
+        >
+            13650968509
+        </cover-view>
       </cover-view>
     </cover-view>
   </custom-map>

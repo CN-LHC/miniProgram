@@ -7,11 +7,25 @@
   position: absolute;
   bottom: 0px;
   left: 0;
-  font-size: 14px;
-  /* color: #0cab06; */
-  padding: 8px 0 16px 12px;
+  font-size: 15px;
+  padding: 10px 0 16px 12px;
   background-color: rgba(255, 255, 255, 1);
 }
 .company_info_item {
-  line-height: 22px;
+  height: 24px;
+  display: flex;
+}
+.company_info_item_name {
+    width: 84px;
+    text-align: right;
+    font-weight: bold;
+}
+.company_info_item_address {
+    opacity: 0.8;
+    font-weight: bold;
+}
+.company_info_item_iphone {
+    color: #0cab06;
+    font-weight: bold;
+    cursor: pointer;
 }

@@ -4,6 +4,13 @@
 .t-image {
     height: 220px !important;
 }
+.t-calendar {
+    padding: 0 !important;
+    margin: 12px 0;
+}
 .t-calendar__months {
-    height: 200px !important;
+    height: 280px !important;
+}
+.home_collapse {
+    padding-bottom: 12px;
 }
